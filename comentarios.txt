@@ -1,0 +1,21 @@
+SOLID é um acrônimo para 5 princípios de padrões de projeto em OOP criado por Robert C. Martin,
+que tem o intuito de facilitar o desenvolvimento e manutenção de software.
+Coesão deve ser alta, intimidade entre classes baixa. Sendo assim baixo acoplamento.
+
+Os 5 princípios são:
+    - Single Responsibility Principle (Princípio de Responsabilidade Única)
+    - Open/Closed Principle (Princípio de Aberto/Fechado)
+    - Liskov Substitution Principle (Princípio da Substituição de Liskov)
+    - Interface Segregation Principle (Princípio da Segregacão de Interface)
+    - Dependency Inversion Principle (Princípio da Inversão de Dependência)
+
+Princípio de Responsabilidade Única:
+    - Uma classe deve ter um, e somente um motivo para existir
+    - Este princípio indica que toda classe, todo método, função ou componente de seu código
+    deve ter uma única e exclusiva responsabilidade. Uma classe que toma pra si muitas responsabilidade.
+    Uma classe que toma para si muitas responsabilidade dentro da aplicação, trás baixa coesão ao seu
+    código resultando em baixo nível de manutenabilidade.
+    - Procure sempre segregar as responsabilidades de suas aplicações em outras classes a modo que fique
+    fácil de entender o papel dessa classe em sua aplicação numa simples leitura de código.
+    - Se possível, sempre construa métodos que realizem apenas uma única função. Não codifique ações
+    inesperadas dentro de seus métodos, isso não é intuitivo, seja objetivo no desenvolvimento de seus métodos.

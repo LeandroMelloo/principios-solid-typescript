@@ -1,0 +1,6 @@
+npm install typescript webpack webpack-cli ts-loader --save-dev
+npm install typescript@latest -g
+
+tsc --init
+
+npm run build
