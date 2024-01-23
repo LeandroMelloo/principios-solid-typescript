@@ -1,2 +1,2 @@
-# principios-solid-typescript
+# Princípios SOLID com Typescript
 Princípios SOLID com Typescript
